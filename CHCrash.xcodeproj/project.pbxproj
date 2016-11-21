@@ -14,6 +14,8 @@
 		46D7E26E1DE2949B00B57E5F /* CHCrash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46D7E26C1DE2949B00B57E5F /* CHCrash.xcdatamodeld */; };
 		46D7E2701DE2949B00B57E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D7E26F1DE2949B00B57E5F /* Assets.xcassets */; };
 		46D7E2731DE2949B00B57E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D7E2711DE2949B00B57E5F /* LaunchScreen.storyboard */; };
+		46D7E27D1DE299A300B57E5F /* UILabel+CHCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D7E27C1DE299A300B57E5F /* UILabel+CHCrash.m */; };
+		46D7E2A01DE2D03D00B57E5F /* NSArray+CHCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D7E29F1DE2D03D00B57E5F /* NSArray+CHCrash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,11 @@
 		46D7E26F1DE2949B00B57E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D7E2721DE2949B00B57E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D7E2741DE2949B00B57E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D7E27B1DE299A300B57E5F /* UILabel+CHCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CHCrash.h"; sourceTree = "<group>"; };
+		46D7E27C1DE299A300B57E5F /* UILabel+CHCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CHCrash.m"; sourceTree = "<group>"; };
+		46D7E27E1DE2A65000B57E5F /* CHCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCrash.h; sourceTree = "<group>"; };
+		46D7E29E1DE2D03D00B57E5F /* NSArray+CHCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CHCrash.h"; sourceTree = "<group>"; };
+		46D7E29F1DE2D03D00B57E5F /* NSArray+CHCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CHCrash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 		46D7E25F1DE2949B00B57E5F /* CHCrash */ = {
 			isa = PBXGroup;
 			children = (
+				46D7E27A1DE2995700B57E5F /* CHCrash */,
 				46D7E2631DE2949B00B57E5F /* AppDelegate.h */,
 				46D7E2641DE2949B00B57E5F /* AppDelegate.m */,
 				46D7E2661DE2949B00B57E5F /* ViewController.h */,
@@ -80,6 +88,18 @@
 				46D7E2611DE2949B00B57E5F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46D7E27A1DE2995700B57E5F /* CHCrash */ = {
+			isa = PBXGroup;
+			children = (
+				46D7E27B1DE299A300B57E5F /* UILabel+CHCrash.h */,
+				46D7E27C1DE299A300B57E5F /* UILabel+CHCrash.m */,
+				46D7E27E1DE2A65000B57E5F /* CHCrash.h */,
+				46D7E29E1DE2D03D00B57E5F /* NSArray+CHCrash.h */,
+				46D7E29F1DE2D03D00B57E5F /* NSArray+CHCrash.m */,
+			);
+			path = CHCrash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +175,10 @@
 			files = (
 				46D7E26E1DE2949B00B57E5F /* CHCrash.xcdatamodeld in Sources */,
 				46D7E2681DE2949B00B57E5F /* ViewController.m in Sources */,
+				46D7E27D1DE299A300B57E5F /* UILabel+CHCrash.m in Sources */,
 				46D7E2651DE2949B00B57E5F /* AppDelegate.m in Sources */,
 				46D7E2621DE2949B00B57E5F /* main.m in Sources */,
+				46D7E2A01DE2D03D00B57E5F /* NSArray+CHCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +333,7 @@
 				46D7E2791DE2949B00B57E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
