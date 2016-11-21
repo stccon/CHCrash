@@ -29,7 +29,7 @@
     
     //数组越界
     NSMutableArray *mArr = [NSMutableArray arrayWithArray:@[@"aa",@"bb"]];
-    NSString *str1 = [mArr objectAtIndex:10];
+    NSString *str1 = [mArr objectAtIndex:-5];
     NSLog(@"%@",str1);}
 
 
