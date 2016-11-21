@@ -17,20 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //label的text被赋值为空
+    
+    //label的text被赋值为空引致的崩溃
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:label];
     label.text = nil;
 
-    //数组越界
+    // 数组越界
     NSArray *arr = @[@"aa",@"bb"];
     NSString *str = [arr objectAtIndex:10];
     NSLog(@"%@",str);
     
-    //数组越界
+    // 数组越界
     NSMutableArray *mArr = [NSMutableArray arrayWithArray:@[@"aa",@"bb"]];
     NSString *str1 = [mArr objectAtIndex:-5];
-    NSLog(@"%@",str1);}
+    NSLog(@"%@",str1);
+}
 
 
 - (void)didReceiveMemoryWarning {
