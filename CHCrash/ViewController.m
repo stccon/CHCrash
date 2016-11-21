@@ -19,7 +19,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     //截获label的text被赋值为空
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    label.backgroundColor = [UIColor blueColor];
     [self.view addSubview:label];
     label.text = nil;
 
